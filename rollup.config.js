@@ -9,7 +9,7 @@ export default [
     input: "index.js",
     output: {
       name: "dist/observerable-object-js",
-      file: pkg.main,
+      file: pkg.browser,
       format: "umd"
     },
     plugins: [
@@ -31,5 +31,13 @@ export default [
         exclude: "node_modules/**"
       })
     ]
-  }
+  },
+  {
+		input: 'index.js',
+		external: ['ms'],
+		output: [
+			{ file: pkg.main, format: 'cjs' },
+			{ file: pkg.module, format: 'es' }
+		]
+	}
 ];

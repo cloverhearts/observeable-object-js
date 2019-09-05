@@ -1,8 +1,10 @@
 {
   "name": "observeable-object-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple and easy observer for javascript object",
-  "main": "dist/observerable-object-js",
+  "main": "dist/observerable-object-js.cjs.js",
+  "module": "dist/observerable-object-js.esm.js",
+  "browser": "dist/observerable-object-js.umd.js",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",

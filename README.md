@@ -2,6 +2,14 @@
 
 Simple, easy Observe for Javascript object.
 
+## How to install
+
+```bash
+npm install --save observerable-object-js
+```
+
+## How to use
+
 ```javascript
 const Observer = require("observerable-object-js");
 
