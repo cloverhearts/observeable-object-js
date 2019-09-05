@@ -1,8 +1,8 @@
 # observeable-object-js
 
-Simple Observe with Javascript object.
+Simple, easy Observe for Javascript object.
 
-```
+```javascript
 const Observer = require("observerable-object-js");
 
 const observer = new Observer();
@@ -27,3 +27,5 @@ observer.removeEventListener("TEST-EVENT", newEventListener);
 observer.removeEventListener("NEW-EVENT", newEventListener);
 
 ```
+
+

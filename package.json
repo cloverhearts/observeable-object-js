@@ -1,7 +1,7 @@
 {
   "name": "observeable-object-js",
-  "version": "0.0.1",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Simple and easy observer for javascript object",
   "main": "dist/observerable-object-js",
   "scripts": {
     "build": "rollup -c",
@@ -12,9 +12,13 @@
     "type": "git",
     "url": "git+https://github.com/cloverhearts/observeable-object-js.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["js", "object", "observe", "lib"],
+  "author": {
+    "name" : "CloverHearts",
+    "email" : "cloverheartsdev@gmail.com",
+    "url" : "https://www.cloverhearts.com"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/cloverhearts/observeable-object-js/issues"
   },
